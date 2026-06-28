@@ -1,0 +1,157 @@
+## Calculated Fields
+
+### 1. Profit Margin
+
+Logic: Profit divided by Sales.
+
+Purpose: Shows how much profit is earned from every sale. It helps compare how profitable different regions, categories, or products are.
+
+### 2. Cost
+
+Logic: Sales minus Profit.
+
+Purpose: Shows the estimated cost of the products sold. It helps compare costs across different products and regions.
+
+### 3. Average Order Value (AOV)
+
+Logic: Total Sales divided by the total number of unique orders.
+
+Purpose: Shows the average amount customers spend on each order. It helps identify which customers or sales channels generate higher-value orders.
+
+### 4. Return Rate
+
+Logic: Number of returned orders divided by the total number of orders.
+
+Purpose: Shows the percentage of orders that were returned. It helps find products or regions with more returns.
+
+### 5. Shipping Delay Bucket
+
+Logic: Groups delivery days into ranges such as 0–2 Days, 3–5 Days, 6–7 Days, and More than 7 Days.
+
+Purpose: Groups orders based on delivery time. It helps compare sales, returns, and customer ratings for different delivery speeds.
+
+## Business Insights
+
+### 1. Sales Trend
+
+Observation:
+Sales fluctuate over time, with periods of both growth and decline. The latest months show an upward trend compared to some earlier months.
+
+Data Evidence:
+The Sales Trend line ranges from approximately 1.66M to 2.98M in monthly sales.
+
+Business Interpretation:
+Sales are not consistent throughout the year, indicating possible seasonal demand or promotional effects.
+
+Recommended Action / Follow-up Question:
+Investigate the reasons for the sales peaks and low-performing months to identify successful campaigns or seasonal factors that can be repeated.
+
+### 2. Regional Performance
+
+Observation:
+The South region generates the highest sales among the regions shown.
+
+Data Evidence:
+
+South: 20,695,264
+East: 16,854,669
+West: 15,625,525
+
+Business Interpretation:
+The South region is the strongest contributor to sales and may represent the highest-performing market.
+
+Recommended Action / Follow-up Question:
+Analyze the factors contributing to the South region's performance and identify opportunities to apply similar strategies in other regions.
+
+### 3. Category Profitability
+
+Observation:
+Profit varies across sub-categories within the Furniture category.
+
+Data Evidence:
+Visible sub-category profits include:
+
+Tables: 4,058,610
+Bookcases: 3,568,541
+Chairs: 3,324,973
+Furnishings: 3,092,145
+
+Business Interpretation:
+Some sub-categories contribute more profit than others, suggesting differences in demand, pricing, or cost structure.
+
+Recommended Action / Follow-up Question:
+Review the profitability of lower-performing sub-categories and identify opportunities to improve pricing, product mix, or costs.
+
+### 4. Customer Segment Behavior
+
+Observation:
+The dashboard includes customer segment filtering, allowing performance to be analyzed for Consumer, Corporate, and Home Office customers.
+
+Data Evidence:
+The dashboard provides an interactive Customer Segment filter for comparison across all visualizations.
+
+Business Interpretation:
+Different customer segments may have different purchasing patterns and profitability.
+
+Recommended Action / Follow-up Question:
+Compare sales, profit, and return rates for each customer segment to identify the most valuable customer group.
+
+### 5. Discount Impact
+
+Observation:
+Profit varies across different discount levels, with greater variation at lower discount values.
+
+Data Evidence:
+The scatter plot shows profit values across discounts ranging from 0.00 to 0.35.
+
+Business Interpretation:
+Increasing discounts does not consistently lead to higher profits, indicating that discount levels should be managed carefully.
+
+Recommended Action / Follow-up Question:
+Evaluate the profitability of each discount level to determine the most effective discount strategy.
+
+### 6. Shipping Performance
+
+Observation:
+Delivery times differ across shipping modes.
+
+Data Evidence:
+The Shipping Performance chart groups deliveries into 0–2 Days, 3–5 Days, 6–7 Days, and More than 7 Days across different shipping modes.
+
+Business Interpretation:
+Some shipping methods are associated with longer delivery times, which may affect customer satisfaction.
+
+Recommended Action / Follow-up Question:
+Review the causes of longer delivery times and identify opportunities to improve shipping efficiency.
+
+### 7. Return Pattern
+
+Observation:
+Return rates differ across product categories.
+
+Data Evidence:
+Furniture has a return rate of approximately 5%, while Technology shows approximately 3.63%.
+
+Business Interpretation:
+Furniture products appear to have a higher likelihood of being returned than Technology products.
+
+Recommended Action / Follow-up Question:
+Investigate the reasons for higher furniture returns, such as product quality, shipping damage, or customer expectations.
+
+### 8. Business Risk and Opportunity
+
+Observation:
+The dashboard combines sales, profit, discounts, returns, and shipping performance in one view, allowing performance to be monitored across multiple business areas.
+
+Data Evidence:
+Key KPIs displayed include:
+
+Total Sales: 53,175,458
+Total Profit: 12,253
+Return Rate: 6.55%
+
+Business Interpretation:
+Returns, discounting, and shipping performance can all affect overall profitability. Monitoring these metrics together helps identify both risks and improvement opportunities.
+
+Recommended Action /Follow-up Question:
+Regularly monitor these KPIs and investigate any increase in return rates, decline in profit, or growth in delivery delays so that corrective actions can be taken promptly.
